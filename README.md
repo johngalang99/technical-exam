@@ -5,7 +5,9 @@
 ### First, clone the repository:
 
 Make sure you have git, nodejs in your local machine
+
 [Download git](https://github.com/git-guides/install-git)
+
 [Download nodejs](https://nodejs.org/en/download/)
 
 ```
