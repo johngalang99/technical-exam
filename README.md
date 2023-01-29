@@ -46,7 +46,9 @@ You should be redirected into this website:
 
 <img width="1427" alt="Screenshot 2023-01-30 at 1 04 48 AM" src="https://user-images.githubusercontent.com/87266699/215343147-a0a949bc-c173-4368-abf3-d0403c1dd6c8.png">
 
-You can run these operations in the graphql sandbox to test if the endpoints are working
+### You can run these operations in the graphql sandbox to test if the endpoints are working
+
+Create user
 ```
 mutation {
   createUser {
@@ -62,7 +64,9 @@ mutation {
     username
   }
 }
-
+```
+Query all users
+```
 query {
   Users {
     id
@@ -70,7 +74,9 @@ query {
     username
   }
 }
-
+```
+Query User by ID
+```
 {
   User(id: 1) {
     id
@@ -78,17 +84,23 @@ query {
     username
   }
 }
-
+```
+Update User
+```
 mutation{
   updateUser(id: 1, username: "Skye") {
     username
   }
 }
-
+```
+delete user by id
+```
 mutation{
   deleteUser(id: 1)
 }
-
+```
+delete all users
+```
 mutation{
   deleteUsers
 }
