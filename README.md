@@ -1,8 +1,8 @@
 # technical-exam
 
-###Run these commands in your terminal
+### Run these commands in your terminal
 
-###First, clone the repository:
+### First, clone the repository:
 
 Make sure you have git, nodejs in your local machine
 [Download git](https://github.com/git-guides/install-git)
@@ -12,7 +12,7 @@ Make sure you have git, nodejs in your local machine
 git clone git@github.com:immangalang/technical-exam.git
 ```
 
-##To run calculator app
+## To run calculator app
 
 ```
 cd technical-exam
@@ -29,7 +29,7 @@ It should redirect you to a website that looks like this:
 
 ![Screenshot 2023-01-30 at 12 59 55 AM](https://user-images.githubusercontent.com/87266699/215342909-3cd41201-0a82-494d-8fb3-d641ec76d10e.png)
 
-##To run backend server
+## To run backend server
 
 ```
 cd technical-exam
