@@ -46,3 +46,50 @@ You should be redirected into this website:
 
 <img width="1427" alt="Screenshot 2023-01-30 at 1 04 48 AM" src="https://user-images.githubusercontent.com/87266699/215343147-a0a949bc-c173-4368-abf3-d0403c1dd6c8.png">
 
+You can run these operations in the graphql sandbox to test if the endpoints are working
+```
+mutation {
+  createUser {
+    id
+    createdAt
+    updatedAt
+    firstName
+    lastName
+    address
+    postCode
+    phoneNumber
+    email
+    username
+  }
+}
+
+query {
+  Users {
+    id
+    email
+    username
+  }
+}
+
+{
+  User(id: 1) {
+    id
+    email
+    username
+  }
+}
+
+mutation{
+  updateUser(id: 1, username: "Skye") {
+    username
+  }
+}
+
+mutation{
+  deleteUser(id: 1)
+}
+
+mutation{
+  deleteUsers
+}
+```
