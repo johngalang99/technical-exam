@@ -4,11 +4,13 @@
 
 ### First, clone the repository:
 
-Make sure you have git, nodejs in your local machine
+Make sure you have git, nodejs, postgreSQL in your local machine
 
 [Download git](https://github.com/git-guides/install-git)
 
 [Download nodejs](https://nodejs.org/en/download/)
+
+[Download PostgreSQL](https://www.postgresql.org/download/)
 
 ```
 git clone git@github.com:immangalang/technical-exam.git
